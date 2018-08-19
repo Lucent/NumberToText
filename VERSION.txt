@@ -1,0 +1,48 @@
+Number to Text - Version History
+Version 1.6 (2/25/2001)
+
+http://www.dayah.com/software/numtotext.zip
+
+by Michael Dayah
+michael@dayah.com
+http://www.dayah.com/
+
+1.6.2
+---------
+* Minor bug fix for long decimals with trim trailing zeros disabled
+* Detects locale settings for decimal point
+
+1.6.0
+---------
+* Supports 239 digits (previous maximum was 133)
+
+1.5.0
+---------
+* Settings and window positions are now saved on exit (HKEY_CURRENT_USER\Software\VB and VBA Program Settings\Number to Text)
+
+1.4.9
+---------
+* Window is now resizable
+
+1.4.2
+---------
+* Added option to generate check-style output
+* Trims long decimals instead of generating an error
+* Added Edit menu
+
+1.2.15
+---------
+* Minor cosmetic changes
+
+1.2.9
+---------
+* Added menus
+* Added about box
+* Added option to automatically copy output
+* Added option to trim trailing zeros off the fractional part of numbers before processing (0.10 = one tenth vs. ten hundredths)
+* Fixed problem with last letter of last word being trimmed
+* Cleaned up interface slightly
+
+1.00.0011
+---------
+* Intial Release

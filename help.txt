@@ -1,0 +1,35 @@
+Number to Text - Help
+Version 1.6.2 (6/29/2001)
+
+http://www.dayah.com/software/numtotext.zip
+
+by Michael Dayah
+michael@dayah.com
+http://www.dayah.com/
+
+Number to Text has the ability to convert negative and positive, integer and fractional numbers with up to 239 digits (120 integer digits and 119 fractional digits) to their word equivalents. For example:
+
+	-0.1 = negative one tenth
+	10.01 = ten and one hundredth
+
+Number to Text has a fairly resilient parser that can sort through and ignore extraneous digits and catch errors.
+
+	-000528.07000 = negative five hundred twenty-eight and seven hundredths
+
+Notice that Number to Text reads numbers correctly, only using "and" as a decimal point. If you'd like to have all significant digits read, disable "Trim trailing zeros" in the Options menu. This option is enabled by default.
+
+	Trim trailing zeros enabled:
+	0.500 = five tenths
+
+	Trim trailing zeros disabled:
+	0.500 = five hundred thousandths
+
+Number to Text can display numbers as written on a check. Selecting "Currency-style output" from the Options menu causes numbers to be read as dollars and cents and rounded to the nearest cent using Banker's rounding (numbers ending in 5 are rounded up if the left digit is odd and down if the digit is even).
+
+	Check-style output:
+	1.025 = one dollar and two cents
+	15 = fifteen dollars and no cents
+
+Number to Text can also automatically copy output by selecting "Auto-copy output" from Options to save time if you're processing a lot of numbers. Auto-copy output will not copy error messages.
+
+Number to Text will trim (not round) the fractional portion of a number if it is longer than 119 digits. The program will warn you if this is done with a message between the input and output box.
